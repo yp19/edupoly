@@ -1,0 +1,22 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+        let value1 = "Hello Hyderabad @Yupptv123";
+        let x = " ";
+        for(i=0;i<=value1.length-1;i++){
+            if(value1.charAt(i)===value1.charAt(i).toUpperCase()){
+                x +=value1.charAt(i).toLowerCase();
+            }else{
+                if(value1.charAt(i)===value1.charAt(i).toLowerCase()){
+                    x +=value1.charAt(i).toUpperCase(); 
+                }
+            }
+        }
+        console.log(x);
+        </script>
+    </body>
+</html>
+
+//output:  hELLO hYDERABAD @yUPPTV123
+

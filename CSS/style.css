@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(secondimage.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .Menu-bar{
+        background-color:rgb(0,100,0);
+        text-align:center;
+    }
+    .Menu-bar ul
+    {
+        display:inline-flex;
+        list-style:none;
+        color: #fff;
+    }
+    .Menu-bar ul li
+    {
+        width:120px;
+        margin:15px;
+        padding:15px;
+
+
+    }
+    .Menu-bar ul li a
+    {
+        text-decoration: none;
+        color:#fff;
+    }
+
+    .active, .Menu-bar ul li:hover
+    {
+        background-color: #2bab0d;
+        border-radius: 3px;
+    }
+    .Menu-bar .fa
+    {
+        margin:8px;
+    }
+
+
